@@ -80,7 +80,7 @@ const HomePage = () => {
 
             
             {/* filtering UI */}
-            <div className='md:w-[25%] flex flex-col flex-start shadow-lg hover:scale-[1.01] transition-all duration-[0.1s]'>
+            <div className='md:w-[25%] h-fit flex flex-col flex-start shadow-lg hover:scale-[1.01] transition-all duration-[0.1s]'>
               <Sort 
                 sort={sort}
                 setSort={(sort)=> setSort(sort)}

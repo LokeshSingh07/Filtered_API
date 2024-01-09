@@ -7,7 +7,7 @@ import HomePage  from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="w-screen min-h-screen">
+    <div className="w-full min-h-screen">
 
       <HomePage/>
 
